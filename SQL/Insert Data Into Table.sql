@@ -24,7 +24,7 @@ CREATE TABLE staging_table (
 );
 
 -- Load data to staging table
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/WA_Fn-UseC_-Telco-Customer-Churn.csv'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/WA_Fn-UseC_-Telco-Customer-Churn.csv' -- Change the path according to yours
 INTO TABLE staging_table
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
